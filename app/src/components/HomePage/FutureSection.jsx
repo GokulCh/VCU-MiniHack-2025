@@ -4,7 +4,7 @@ const FutureSection = () => {
   return (
     <section id="Future" className="py-16">
       <div className="max-w-6xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-green-500">Future Works</h2>
+        <h2 className="text-3xl font-bold text-primary">Future Works</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
           <FutureWork
             icon="bx bx-brain"
