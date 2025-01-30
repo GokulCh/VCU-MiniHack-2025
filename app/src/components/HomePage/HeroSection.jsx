@@ -44,17 +44,6 @@ const HeroSection = () => {
         ))}
       </div>
 
-      <div id="HeroSectionGetStartedButton" className="mt-10">
-        <Link to="/QuestMap">
-          <button
-            className="btn btn-primary text-white bg-gradient-to-r from-green-500 to-green-700 p-2 px-3 rounded-3xl shadow-lg mx-4 
-      transition-all duration-300 hover:from-green-400 hover:to-green-600"
-          >
-            Get Started
-          </button>
-        </Link>
-      </div>
-
       <div id="HeroSectionScrollDownArrow" className="absolute bottom-10 text-center">
         <i className="bx bx-chevron-down text-white text-3xl animate-bounce"></i>
       </div>
