@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 
 const features = [
   {
-    name: 'Community Safety',
-    description: 'Collaborative platform that enables real-time sharing of critical road safety information.',
-    icon: 'bx bx-bell',
+    name: 'Fitness Tracking',
+    description: 'Track your walking, running, and biking activities to earn points and unlock quests.',
+    icon: 'bx bx-run', // Icon for fitness
   },
   {
-    name: 'Smart Routing',
-    description: 'Dynamic route suggestions based on live accident and traffic data.',
-    icon: 'bx bx-shield',
+    name: 'Recycling Challenges',
+    description: 'Take photos of recyclable trash and recycling bins to complete challenges and earn rewards.',
+    icon: 'bx bx-recycle', // Icon for recycling
   },
   {
-    name: 'Urban Insights',
-    description: 'Transform accident data into strategic urban planning recommendations.',
-    icon: 'bx bx-bar-chart',
+    name: 'Green Initiatives',
+    description: 'Donate your points to support environmental causes or redeem them for discounts and rewards.',
+    icon: 'bx bx-leaf',
   },
 ];
 
@@ -46,7 +46,7 @@ const HeroSection = () => {
       </div>
 
       <div id="HeroSectionGetStartedButton" className="mt-10">
-        <Link to="/TrafficMap">
+        <Link to="/QuestMap">
           <button
             className="btn btn-primary text-white bg-gradient-to-r from-green-500 to-green-700 p-2 px-3 rounded-3xl shadow-lg mx-4 
       transition-all duration-300 hover:from-green-400 hover:to-green-600"
