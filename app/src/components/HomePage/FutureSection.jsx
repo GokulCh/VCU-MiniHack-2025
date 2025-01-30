@@ -46,7 +46,7 @@ const FutureWork = ({ icon, title, description }) => {
   return (
     <div className="flex flex-col items-center">
       <i className={`${icon} text-2xl test-green-500`}></i>
-      <h3 className="text-lg font-semibold text-green-500">{title}</h3>
+      <h3 className="text-lg font-semibold text-primary">{title}</h3>
       <p className="text-sm">{description}</p>
     </div>
   );
