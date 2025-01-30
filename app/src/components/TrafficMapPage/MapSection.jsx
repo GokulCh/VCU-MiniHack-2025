@@ -97,11 +97,11 @@ const MapSection = ({ location }) => {
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
             placeholder="Search location..."
-            className="w-full p-3 border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           <button
             type="submit"
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white p-2 rounded"
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-green-500 text-white p-2 rounded"
           >
             Search
           </button>
