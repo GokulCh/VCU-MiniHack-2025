@@ -4,27 +4,26 @@ const HowItWorksSection = () => {
   return (
     <section id="HowItWorks" className="py-16">
       <div className="max-w-6xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 className="text-primary text-3xl">How Our System Works</h2>
+        <h2 className="text-primary text-3xl">How Eco Health Quest Works</h2>
         <p className="mt-4">
-          A comprehensive approach to collecting, analyzing, and sharing traffic accident data to enhance urban road
-          safety.
+        A fun and impactful way to improve your health and the planet through fitness and environmental challenges.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-8">
           <Process
-            icon="bx bx-map"
-            title="Data Collection"
-            description="Gather accident information from verified sources, including emergency services and official reports."
+            icon="bx bx-run"
+            title="Track Your Activities"
+            description="Use GPS and motion tracking to log your walking, running, or biking activities and earn points."
           />
           <Process
-            icon="bx bx-analyse"
-            title="Data Processing"
-            description="Analyze collected data to identify accident patterns, severity, and high-risk locations."
+            icon="bx bx-recycle"
+            title="Complete Recycling Challenges"
+            description="Take photos of recyclable trash and recycling bins to complete challenges and earn rewards."
           />
           <Process
-            icon="bx bx-broadcast"
-            title="Notification System"
-            description="Distribute timely and accurate accident information to drivers and city officials."
+             icon="bx bx-leaf"
+             title="Support Green Initiatives"
+             description="Donate your points to environmental causes or redeem them for discounts and rewards."
           />
         </div>
       </div>
@@ -35,8 +34,8 @@ const HowItWorksSection = () => {
 const Process = ({ icon, title, description }) => {
   return (
     <div className="flex flex-col items-center">
-      <i className={`${icon} text-2xl`}></i>
-      <h3 className="text-lg font-semibold text-primary">{title}</h3>
+      <i className={`${icon} text-2xl test-green-500`}></i>
+      <h3 className="text-lg font-semibold text-green-500">{title}</h3>
       <p className="text-sm">{description}</p>
     </div>
   );
