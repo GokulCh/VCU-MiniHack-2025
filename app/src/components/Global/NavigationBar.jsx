@@ -21,7 +21,7 @@ const NavigationBar = () => {
       >
         <div id="NavigationBarContainerLeft" className="flex items-center space-x-2">
           <i className="bx bx-leaf text-2xl"></i>
-          <p className="text-green-500 font-semibold">SmartCity</p>
+          <p className="text-green-500 font-semibold">Eco Health Quest</p>
         </div>
 
         <div id="NavigationBarContainerRight" className="flex items-center justify-end space-x-4 w-full">
