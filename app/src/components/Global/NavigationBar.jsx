@@ -6,11 +6,9 @@ const navItems = [
   { name: 'Home', icon: 'bx bx-home-alt-2', href: '/#Home' },
   { name: 'Features', icon: 'bx bx-bell', href: '/#Features' },
   { name: 'How It Works', icon: 'bx bx-info-circle', href: '/#HowItWorks' },
-  { name: 'Queries', icon: 'bx bx-package', href: '/Queries/#Home' },
   { name: 'Traffic Map', icon: 'bx bx-map', href: '/TrafficMap/#Home' },
   { name: 'Future Works', icon: 'bx bx-rocket', href: '/#Future' },
   { name: 'Motivation', icon: 'bx bx-heart', href: '/#Motivation' },
-  { name: 'Manager', icon: 'bx bx-cog', href: '/Manager/#Home' },
   { name: 'GitHub', icon: 'bx bxl-github', href: 'https://github.com/GokulCh/VCU-MiniHack-2025' },
 ];
 
