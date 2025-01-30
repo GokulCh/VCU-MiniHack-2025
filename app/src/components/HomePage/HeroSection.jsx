@@ -27,8 +27,7 @@ const HeroSection = () => {
           <span className="text-green-500">Eco Health</span> <span className="text-white">Quest</span>
         </h1>
         <p className="text-base max-w-3xl mx-auto">
-          Transforming urban mobility by turning traffic accident data into actionable community insights. Empowering
-          Richmond's residents with real-time safety information and proactive navigation solutions.
+        Improve your health and the planet through real-world activities. Complete fitness and environmental challenges to earn rewards and make a difference.
         </p>
       </div>
 
