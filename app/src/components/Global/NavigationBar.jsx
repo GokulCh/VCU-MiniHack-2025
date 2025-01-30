@@ -11,7 +11,7 @@ const navItems = [
   { name: 'Future Works', icon: 'bx bx-rocket', href: '/#Future' },
   { name: 'Motivation', icon: 'bx bx-heart', href: '/#Motivation' },
   { name: 'Manager', icon: 'bx bx-cog', href: '/Manager/#Home' },
-  { name: 'GitHub', icon: 'bx bxl-github', href: 'https://github.com/cmsc-vcu/cmsc408-fa2024-proj-blue' },
+  { name: 'GitHub', icon: 'bx bxl-github', href: 'https://github.com/GokulCh/VCU-MiniHack-2025' },
 ];
 
 const NavigationBar = () => {
@@ -22,8 +22,8 @@ const NavigationBar = () => {
         className="flex w-full max-w-6xl rounded-xl bg-black/30 border border-1 border-gray-800 px-3 py-2 items-center shadow-[0_0_15px_5px_rgba(0,0,0,0.2)]"
       >
         <div id="NavigationBarContainerLeft" className="flex items-center space-x-2">
-          <i className="bx bx-grid text-2xl"></i>
-          <p className="text-blue-500 font-semibold">SmartCity</p>
+          <i className="bx bx-leaf text-2xl"></i>
+          <p className="text-green-500 font-semibold">SmartCity</p>
         </div>
 
         <div id="NavigationBarContainerRight" className="flex items-center justify-end space-x-4 w-full">

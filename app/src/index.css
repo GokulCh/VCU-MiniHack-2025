@@ -11,8 +11,8 @@
   * ---------------------------------------------- */
 :root {
   /* Theme Colors */
-  --primary: #3b82f6;
-  --primary-dark: #2563eb;
+  --primary: #3bf648;
+  --primary-dark: #1df52c;
   --secondary: #64748b;
   --tertiary: #586475;
   --success: #22c55e;
@@ -43,7 +43,7 @@
     font-family: 'Inter', sans-serif;
     color: var(--text-secondary);
     background-color: var(--background);
-    background-image: radial-gradient(100% 100% at 50% -60%, rgba(0, 128, 250, 0.3), transparent);
+    background-image: radial-gradient(100% 100% at 50% -60%,  rgba(0, 250, 54, 0.3), transparent);
   }
 
   /* Text Colors */

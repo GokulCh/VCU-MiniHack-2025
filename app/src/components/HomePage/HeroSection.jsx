@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 
 const features = [
   {
-    name: 'Community Safety',
-    description: 'Collaborative platform that enables real-time sharing of critical road safety information.',
-    icon: 'bx bx-bell',
+    name: 'Fitness Tracking',
+    description: 'Track your walking, running, and biking activities to earn points and unlock quests.',
+    icon: 'bx bx-run', // Icon for fitness
   },
   {
-    name: 'Smart Routing',
-    description: 'Dynamic route suggestions based on live accident and traffic data.',
-    icon: 'bx bx-shield',
+    name: 'Recycling Challenges',
+    description: 'Take photos of recyclable trash and recycling bins to complete challenges and earn rewards.',
+    icon: 'bx bx-recycle', // Icon for recycling
   },
   {
-    name: 'Urban Insights',
-    description: 'Transform accident data into strategic urban planning recommendations.',
-    icon: 'bx bx-bar-chart',
+    name: 'Green Initiatives',
+    description: 'Donate your points to support environmental causes or redeem them for discounts and rewards.',
+    icon: 'bx bx-leaf',
   },
 ];
 
@@ -24,11 +24,10 @@ const HeroSection = () => {
     <section id="Home" className="w-full flex flex-col items-center justify-center py-24 sm:py-36 h-screen relative">
       <div id="HeroSectionContainer" className="flex flex-col items-center justify-center text-center space-y-6">
         <h1 className="text-4xl sm:text-5xl font-bold fade-in-medium">
-          <span className="text-blue-500">SmartCity</span> <span className="text-white">Traffic Hub</span>
+          <span className="text-green-500">Eco Health</span> <span className="text-white">Quest</span>
         </h1>
         <p className="text-base max-w-3xl mx-auto">
-          Transforming urban mobility by turning traffic accident data into actionable community insights. Empowering
-          Richmond's residents with real-time safety information and proactive navigation solutions.
+        Improve your health and the planet through real-world activities. Complete fitness and environmental challenges to earn rewards and make a difference.
         </p>
       </div>
 
@@ -46,10 +45,10 @@ const HeroSection = () => {
       </div>
 
       <div id="HeroSectionGetStartedButton" className="mt-10">
-        <Link to="/TrafficMap">
+        <Link to="/QuestMap">
           <button
-            className="btn btn-primary text-white bg-gradient-to-r from-blue-500 to-blue-700 p-2 px-3 rounded-3xl shadow-lg mx-4 
-      transition-all duration-300 hover:from-blue-400 hover:to-blue-600"
+            className="btn btn-primary text-white bg-gradient-to-r from-green-500 to-green-700 p-2 px-3 rounded-3xl shadow-lg mx-4 
+      transition-all duration-300 hover:from-green-400 hover:to-green-600"
           >
             Get Started
           </button>
