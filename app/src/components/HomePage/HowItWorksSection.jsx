@@ -18,7 +18,7 @@ const HowItWorksSection = () => {
           <Process
             icon="bx bx-recycle"
             title="Complete Recycling Challenges"
-            description="Take photos of recyclable trash and recycling bins to complete challenges and earn rewards."
+            description="Submit photos of recyclable trash/ recycling bins and earn points/rewards."
           />
           <Process
              icon="bx bx-leaf"
