@@ -7,35 +7,21 @@ const FeaturesSection = () => {
         <h2 className="text-3xl font-bold text-primary">Platform Features</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
           <Feature
-            icon="bx bx-bell"
-            title="Real-Time Alerts"
-            description="Instant notifications about nearby accidents to help drivers avoid potential hazard zones."
-          />
-          <Feature
-            icon="bx bx-shield"
-            title="Route Safety"
-            description="Suggest alternative routes by cross-referencing current accident and traffic information."
-          />
-          <Feature
-            icon="bx bx-bar-chart-alt-2"
-            title="Planning Support"
-            description="Provide city officials with detailed accident data to identify and address high-risk areas."
+            icon="bx bx-dollar-circle"
+            title="Financial Incentive"
+            description="Earn money by helping the environment."
           />
           <Feature
             icon="bx bx-trending-up"
             title="Trend Analysis"
-            description="Monitor and report on traffic patterns to support urban traffic management."
+            description="Stay motivated and track your progress effortlessly with our app's advanced fitness history features."
           />
           <Feature
-            icon="bx bx-history"
-            title="Historical Records"
-            description="Maintain comprehensive accident records for long-term safety research and urban planning."
+            icon="bx bx-recycle"
+            title="Donations"
+            description="Turn earned points into donations to environmental organizations."
           />
-          <Feature
-            icon="bx bx-lock-alt"
-            title="Data Protection"
-            description="Ensure user privacy through anonymized data and strict access controls."
-          />
+
         </div>
       </div>
     </section>
