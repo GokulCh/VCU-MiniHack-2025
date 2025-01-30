@@ -6,27 +6,9 @@ const MotivationSection = () => {
       <div className="max-w-6xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-primary">Our Motivation</h2>
         <p className="mt-4">
-          Our mission is to enhance urban mobility and safety by providing real-time traffic updates and data-driven
-          insights.
+          Our mission is to enhance environmental responsibility, sustainability, and health among users by offering incentives for recycling and exercise. 
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
-          <Motivation
-            icon="bx bx-heart"
-            title="Community Safety"
-            description="We aim to reduce accidents and improve road safety for everyone."
-          />
-          <Motivation
-            icon="bx bx-bar-chart"
-            title="Data-Driven Insights"
-            description="Leveraging data to make informed decisions and improve urban planning."
-          />
-          <Motivation
-            icon="bx bx-globe"
-            title="Global Impact"
-            description="Expanding our reach to create safer cities worldwide."
-          />
         </div>
-      </div>
     </section>
   );
 };
