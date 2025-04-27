@@ -2,6 +2,10 @@
 
 Eco Health Quest is a web-based platform designed to encourage fitness while promoting environmental sustainability. The goal is to reward users for staying active and completing eco-friendly challenges, like picking up litter, to make a positive impact on the planet.
 
+## Check out this video about the project:
+
+[![Video Title](https://img.youtube.com/vi/FuBqRGPmNkE/0.jpg)](https://youtu.be/FuBqRGPmNkE)
+
 ## Inspiration
 
 The inspiration behind Eco Health Quest came from the idea of turning everyday fitness activities into a force for environmental change. Seeing plastic waste while out on a walk or run made us think: what if staying active could also help clean the planet?
